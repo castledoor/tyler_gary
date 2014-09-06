@@ -1,22 +1,18 @@
-html { 
+/*html { 
   background: url(../img/Splash_Page_Image.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+}*/
 
-body {
-	background: transparent !important;
-}
-
-
-
-#new_album {
-  margin-left: 400px ;
-  margin-top: 100px;
-  width: 40em;
-  position: absolute;
+.background {
+	/*background: transparent !important;*/
+   background: url(../img/Splash_Page_Image.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 
@@ -25,18 +21,11 @@ body {
     src: url(../fonts/NeutraText-Demi.ttf);
 }
 
-#splash-text {
-	color: white;
-	font-family: "NeutraFont-Demi";
-	margin-top: 700px;
-	margin-left: 100px;
-	font-size: 30px;
-	overflow: hidden;
-}
-
-#text-container {
-	width: 400px;
-	height: 400px
+.enter {
+  color:white;
+  padding-left: 1000px;
+  padding-top: 300px;
+  padding-bottom: 350px;
 }
 
 
